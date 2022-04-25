@@ -1,7 +1,7 @@
 package edu.cmu.course18745.pd.sw.restservice.FeedbackService;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class FeedbackCollector {
     private final List<Feedback> feedbacks = new ArrayList<>();
