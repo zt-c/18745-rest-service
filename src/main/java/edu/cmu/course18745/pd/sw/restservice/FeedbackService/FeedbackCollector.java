@@ -14,6 +14,6 @@ public class FeedbackCollector {
         return feedbacks;
     }
 
-    public record Feedback(boolean isTripSmooth, String reason) {
+    public record Feedback(String reaction, String reason, String comments) {
     }
 }
